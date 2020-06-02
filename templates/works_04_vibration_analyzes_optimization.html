@@ -15,7 +15,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="./static/assets/apple-icon-180x180.png">
   <link href="./static/assets/icon.ico" rel="icon">
 
-  <title>Title page</title>  
+  <title>Vibration Analyzes and Optimization Project</title>
 
 <link href="./static/main.3f6952e4.css" rel="stylesheet"></head>
 
@@ -24,7 +24,7 @@
 <div id="site-border-right"></div>
 <div id="site-border-top"></div>
 <div id="site-border-bottom"></div>
- <!-- Add your content of header -->
+<!-- Add your content of header -->
 <header>
   <nav class="navbar  navbar-fixed-top navbar-default">
     <div class="container">
@@ -42,50 +42,72 @@
           <li><a href="./about.html" title="">03 : About me</a></li>
           <li><a href="./contact.html" title="">04 : Contact</a></li>
           <li><a href="./resume.html" title="">05 : Resume</a></li>
-
         </ul>
+
+
+          <ul class="nav navbar-nav navbar-right navbar-small visible-md visible-lg">
+            <li><a href="./works_01_password_checker.html" title="">001</a></li>
+            <li><a href="./works_02_data_scraping.html" title="">002</a></li>
+            <li><a href="./works_03_back_end_development.html" title="">003</a></li>
+            <li><a href="./works_04_vibration_analyzes_optimization.html" title="" class="active">004</a></li>
+          </ul>
 
 
       </div> 
     </div>
   </nav>
 </header>
-
 <div class="section-container">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div class="section-container-spacer text-center">
-            <h1 class="h2">03 : About me</h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <img src="./static/assets/images/password.jpg" class="img-responsive" alt="">
+        <div class="card-container">
+          <div class="text-center">
+            <h1 class="h2">001 : Password Checker</h1>
           </div>
-          
-          <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-              <div class="row">
-                <div class="col-xs-12 col-md-6">
-                  <h3>UNDER CONSTRUCTION...</h3>
-                  <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus at sem quis varius.
-                  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras ultrices hendrerit nisl.</p>
-                  <h3>Ut enim ad minim </h3>
-                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-                  <h3>Maecenas luctus at sem quis varius</h3>
-                  <p>
-                  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus iaculis magna sagittis elit sagittis, at hendrerit lorem venenatis. Morbi accumsan iaculis blandit. Cras ultrices hendrerit nisl.</p>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                  <img src="./static/assets/images/profil.jpg" class="img-responsive" alt=""> -->
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          
-       </div>
+          <p>The purpose of this project is to check if the input password, may have been hacked.</p>
+
+            <p>For this project, I used python. The code make a request to the website through its API.
+              The request made, uses a txt document that has the user's password. The password, is converted to a hash code. Then,
+              only part of that hash code is sent. The website returns a list that have all leaked passwords,
+              that contain the same part of the hash code we sent. Finally, this program analyzes the response
+              to check if the input password is in the list.
+            </p>
+            <small class="pull-right">Bruno Mileto</small>
+        </div>
       </div>
+
+      
+
+      <div class="col-md-8 col-md-offset-2 section-container-spacer">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <img src="./static/assets/images/password/code1.PNG" class="img-responsive" alt="">
+            <p>Menphis skyline</p>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <img src="./static/assets/images/work001-03.jpg" class="img-responsive" alt="">
+            <p>Menphis skyline</p>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <img src="./static/assets/images/work001-03.jpg" class="img-responsive" alt="">
+            <p>Menphis skyline</p>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <img src="./static/assets/images/work001-03.jpg" class="img-responsive" alt="">
+            <p>Menphis skyline</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12">
+        <img src="./static/assets/images/work001-04.jpg" class="img-responsive" alt="">
+      </div>
+
     </div>
   </div>
+</div>
 
 
 <footer class="footer-container text-center">
@@ -117,6 +139,6 @@
   ga('send', 'pageview');
 </script>
 
---> <script type="text/javascript" src="./static/main.70a66962.js"></script></body>
+--> <script type="text/javascript" src="./main.70a66962.js"></script></body>
 
 </html>
